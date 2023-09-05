@@ -1,0 +1,387 @@
+{
+  "id": "515f2e13-ecd6-4be0-b656-5226fa4c601a",
+  "version": "2.0",
+  "name": "Actividad25",
+  "url": "https://www.sushiclub.com.ar/index.php",
+  "tests": [{
+    "id": "6f698a0c-fd8a-4193-9a07-fdb0ad732c26",
+    "name": "Ejercicio25",
+    "commands": [{
+      "id": "fc6e6db7-5a1e-4c72-8cef-9f2ca274c6ad",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sushiclub.com.ar/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "baa583e4-5a02-414c-9303-4dbb46d2b923",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88f3404b-63e9-48d0-9590-d0394b29cf43",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > .dropdown:nth-child(9) > a",
+      "targets": [
+        ["css=#menuMobile > .dropdown:nth-child(9) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'beneficios')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[13]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a3c381e-5d94-439b-b731-7bb1c38eec77",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CABA",
+      "targets": [
+        ["linkText=CABA", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'CABA')])[6]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'beneficios.php?provincia=2')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b73afeb6-0bdd-47c5-893c-10b364f5848c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Caballito",
+      "targets": [
+        ["linkText=Caballito", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Caballito')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '?sucursal=14')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Caballito')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7f025cc-9328-4a70-83c4-a4112614b1ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12:nth-child(3) > .row:nth-child(2) > .col-sm-4:nth-child(1) .rounded_",
+      "targets": [
+        ["css=.col-sm-12:nth-child(3) > .row:nth-child(2) > .col-sm-4:nth-child(1) .rounded_", "css:finder"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "593d0f00-37c6-4a35-abd7-51b9fcdc7e76",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > .dropdown:nth-child(9) > a",
+      "targets": [
+        ["css=#menuMobile > .dropdown:nth-child(9) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'beneficios')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[13]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e533879c-8f98-4767-ac89-258ed2f5790d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=GBA",
+      "targets": [
+        ["linkText=GBA", "linkText"],
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'GBA')])[6]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'beneficios.php?provincia=3')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "268d786a-1d4c-4506-87e7-eab4cfc5c36a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Campana (Deli & Take)",
+      "targets": [
+        ["linkText=Campana (Deli & Take)", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Campana (Deli & Take)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '?sucursal=86')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Campana (Deli & Take)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eff55b1-4244-4743-9e59-2feee068859b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12:nth-child(5) > .row:nth-child(1) > .col-sm-4:nth-child(1) .rounded_",
+      "targets": [
+        ["css=.col-sm-12:nth-child(5) > .row:nth-child(1) > .col-sm-4:nth-child(1) .rounded_", "css:finder"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70823ce3-53f1-45b8-bfb4-9bac5fec830a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > .dropdown:nth-child(9)",
+      "targets": [
+        ["css=#menuMobile > .dropdown:nth-child(9)", "css:finder"],
+        ["xpath=//ul[@id='menuMobile']/li[9]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10068aa1-538e-4234-93af-627e167311b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > .dropdown:nth-child(9) > a",
+      "targets": [
+        ["css=#menuMobile > .dropdown:nth-child(9) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'beneficios')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[13]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d0c40b1-ec87-477f-a6d2-45e2404b8fd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(3) > a",
+      "targets": [
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Interior')])[6]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'beneficios.php?provincia=15')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ea49f2b-3cb2-452f-b79f-66b6ede042d3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,349.8000183105469)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "518a03ce-2a5e-41a5-b12f-4217a8290ba7",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "linkText=Neuquén",
+      "targets": [
+        ["linkText=Neuquén", "linkText"],
+        ["css=.open li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Neuquén')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '?sucursal=41')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Neuquén')]", "xpath:innerText"]
+      ],
+      "value": "33.5,5.856231689453125"
+    }, {
+      "id": "56dc511a-de10-47e4-8291-42d9abb02ddd",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "linkText=Neuquén",
+      "targets": [
+        ["linkText=Neuquén", "linkText"],
+        ["css=.open li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Neuquén')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '?sucursal=41')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Neuquén')]", "xpath:innerText"]
+      ],
+      "value": "33.5,5.856231689453125"
+    }, {
+      "id": "b31f466f-f840-4ec6-8824-61fc763cb0e7",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "linkText=Neuquén",
+      "targets": [
+        ["linkText=Neuquén", "linkText"],
+        ["css=.open li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Neuquén')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '?sucursal=41')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Neuquén')]", "xpath:innerText"]
+      ],
+      "value": "33.5,5.856231689453125"
+    }, {
+      "id": "0e595b35-d2eb-4326-a665-f9ae9b225cd6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Neuquén",
+      "targets": [
+        ["linkText=Neuquén", "linkText"],
+        ["css=.open li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Neuquén')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '?sucursal=41')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Neuquén')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8b2db68-28aa-4122-88dd-6efc403c29a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12:nth-child(3) > .row:nth-child(2) > .col-sm-4:nth-child(1) .rounded_",
+      "targets": [
+        ["css=.col-sm-12:nth-child(3) > .row:nth-child(2) > .col-sm-4:nth-child(1) .rounded_", "css:finder"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4453857b-5cbc-42ef-9ada-a2979b1feb57",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > .dropdown:nth-child(9) > a",
+      "targets": [
+        ["css=#menuMobile > .dropdown:nth-child(9) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'beneficios')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[13]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bea4d95-ede3-40b7-aea7-b76ff409ef2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(4) > a",
+      "targets": [
+        ["css=.open li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Costa Atlántica')])[6]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'beneficios.php?provincia=18')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2146d8ac-93f9-471b-b648-8efefc44ea80",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mar de las Pampas",
+      "targets": [
+        ["linkText=Mar de las Pampas", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mar de las Pampas')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '?sucursal=44')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mar de las Pampas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5451d971-8c92-4ff1-8bf6-cdb5dbeb2328",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rounded_",
+      "targets": [
+        ["css=.rounded_", "css:finder"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "861a8614-e271-401b-8b47-ae0b34200f01",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > .dropdown:nth-child(9) > a",
+      "targets": [
+        ["css=#menuMobile > .dropdown:nth-child(9) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'beneficios')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[13]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dc8cbbb-2075-42fe-8eb2-71facceacc7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(5) > a",
+      "targets": [
+        ["css=.open li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Temporada')])[4]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'beneficios.php?temporada=1')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd439e68-1cd2-4ae7-9146-f21e635f9f16",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,262.3500061035156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61fcd474-120d-4d39-aba9-c51a8eb9759e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > .dropdown:nth-child(9) > a",
+      "targets": [
+        ["css=#menuMobile > .dropdown:nth-child(9) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'beneficios')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[13]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6220b125-a810-4c4e-8edc-b9096ec56912",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(5)",
+      "targets": [
+        ["css=.open li:nth-child(5)", "css:finder"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/ul/li[5]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[9]/ul/li[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ff000c4-6a8b-4234-95d9-77e6263b8cae",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menuMobile > .dropdown:nth-child(9) > a",
+      "targets": [
+        ["css=#menuMobile > .dropdown:nth-child(9) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'beneficios')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[13]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58d96a81-4ad9-4c0b-9ad8-3c71bc63c69f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(5) > a",
+      "targets": [
+        ["css=.open li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Temporada')])[4]", "xpath:link"],
+        ["xpath=//ul[@id='menuMobile']/li[9]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'beneficios.php?temporada=1')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[9]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b8a51f0-731a-4df1-8b30-b55b1c84762a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,174.90000915527344)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "019c343c-090a-440f-b7b9-cc9e34c63ea1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6f698a0c-fd8a-4193-9a07-fdb0ad732c26"]
+  }],
+  "urls": ["https://www.sushiclub.com.ar/index.php"],
+  "plugins": []
+}

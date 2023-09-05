@@ -1,0 +1,364 @@
+{
+  "id": "411450a1-4708-4a03-846b-e1f46a8dba97",
+  "version": "2.0",
+  "name": "sushi",
+  "url": "https://www.sushiclub.com.ar/contacto.php?tipo=presupuesto",
+  "tests": [{
+    "id": "c5f1b66d-214e-47bb-bcaf-a6defce5a0e7",
+    "name": "Eventos & Catering",
+    "commands": [{
+      "id": "2852e850-b266-470a-957a-64965b0b82f8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sushiclub.com.ar/contacto.php?tipo=presupuesto",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f68dc12-6225-4a6b-82b4-e1aa3cf03c9d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1290x726",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "860c7d45-8f29-4de7-a50c-fdcdb8ef3076",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1.3422818183898926)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8085d3e0-af5d-44ac-8d40-51216276f76f",
+      "comment": "",
+      "command": "click",
+      "target": "id=motivo",
+      "targets": [
+        ["id=motivo", "id"],
+        ["css=#motivo", "css:finder"],
+        ["xpath=//select[@id='motivo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aa5f5d3-043d-4d6b-82e4-eabf885dd63a",
+      "comment": "",
+      "command": "select",
+      "target": "id=motivo",
+      "targets": [],
+      "value": "label=Franquicias"
+    }, {
+      "id": "3e365ce9-b9e6-47e3-ac24-8e7739a3358c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row > .col-sm-6",
+      "targets": [
+        ["css=.row > .col-sm-6", "css:finder"],
+        ["xpath=//body/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8926c276-7688-42b0-9dd3-de671e15e333",
+      "comment": "",
+      "command": "click",
+      "target": "id=motivo",
+      "targets": [
+        ["id=motivo", "id"],
+        ["css=#motivo", "css:finder"],
+        ["xpath=//select[@id='motivo']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6f6798e-f6aa-4f63-992e-707aa5594b10",
+      "comment": "",
+      "command": "click",
+      "target": "id=contacto",
+      "targets": [
+        ["id=contacto", "id"],
+        ["css=#contacto", "css:finder"],
+        ["xpath=//div[@id='contacto']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a246bb2e-5bd1-436b-81c6-0559c409b9c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#franquicia .form-group:nth-child(2) .form-control",
+      "targets": [
+        ["css=#franquicia .form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=(//input[@name='nombre'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afb5d3a7-f7d7-4146-80d3-028cf86c2b2c",
+      "comment": "",
+      "command": "type",
+      "target": "css=#franquicia .form-group:nth-child(2) .form-control",
+      "targets": [
+        ["css=#franquicia .form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=(//input[@name='nombre'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "Sebastian Arturo"
+    }, {
+      "id": "1e118948-89ee-4b95-a29b-266a168845a8",
+      "comment": "",
+      "command": "type",
+      "target": "css=#franquicia .form-group:nth-child(3) .form-control",
+      "targets": [
+        ["css=#franquicia .form-group:nth-child(3) .form-control", "css:finder"],
+        ["xpath=(//input[@name='apellido'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Molina Molina"
+    }, {
+      "id": "2271ff93-66d9-4e34-b6f3-62ae039d2b21",
+      "comment": "",
+      "command": "type",
+      "target": "css=#franquicia .form-group:nth-child(5) .form-control",
+      "targets": [
+        ["css=#franquicia .form-group:nth-child(5) .form-control", "css:finder"],
+        ["xpath=(//input[@name='telefono'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/form/div[4]/div/input", "xpath:position"]
+      ],
+      "value": "9035798"
+    }, {
+      "id": "9e50d6d4-5ed8-4981-95f6-74dca4ea5f06",
+      "comment": "",
+      "command": "type",
+      "target": "name=direccion",
+      "targets": [
+        ["name=direccion", "name"],
+        ["css=#franquicia .form-group:nth-child(6) .form-control", "css:finder"],
+        ["xpath=//input[@name='direccion']", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/form/div[5]/div/input", "xpath:position"]
+      ],
+      "value": "calle 13b"
+    }, {
+      "id": "1dc36407-f064-45dc-975b-e94f50caa22e",
+      "comment": "",
+      "command": "click",
+      "target": "name=empresa",
+      "targets": [
+        ["name=empresa", "name"],
+        ["css=#franquicia .form-group:nth-child(7) .form-control", "css:finder"],
+        ["xpath=//input[@name='empresa']", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/form/div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8edbd09-86d7-42bf-b9c9-0c57bd9ea13f",
+      "comment": "",
+      "command": "type",
+      "target": "name=empresa",
+      "targets": [
+        ["name=empresa", "name"],
+        ["css=#franquicia .form-group:nth-child(7) .form-control", "css:finder"],
+        ["xpath=//input[@name='empresa']", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/form/div[6]/div/input", "xpath:position"]
+      ],
+      "value": "mindhub"
+    }, {
+      "id": "bbd90245-a6f2-48cb-b92f-f68329c10b9a",
+      "comment": "",
+      "command": "click",
+      "target": "name=capital",
+      "targets": [
+        ["name=capital", "name"],
+        ["css=#franquicia .form-group:nth-child(9) .form-control", "css:finder"],
+        ["xpath=//input[@name='capital']", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[8]/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "254be4fa-138b-4c06-8114-44e04922ad4a",
+      "comment": "",
+      "command": "type",
+      "target": "name=capital",
+      "targets": [
+        ["name=capital", "name"],
+        ["css=#franquicia .form-group:nth-child(9) .form-control", "css:finder"],
+        ["xpath=//input[@name='capital']", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[8]/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/input", "xpath:position"]
+      ],
+      "value": "cordaba"
+    }, {
+      "id": "e2b3c1ff-bd97-42dc-ba30-3bc4807cccd1",
+      "comment": "",
+      "command": "click",
+      "target": "name=territorio",
+      "targets": [
+        ["name=territorio", "name"],
+        ["css=#franquicia .form-group:nth-child(10) .form-control", "css:finder"],
+        ["xpath=//input[@name='territorio']", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[9]/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9eb43574-96b7-486a-a9e9-9ca4a9b186ce",
+      "comment": "",
+      "command": "type",
+      "target": "name=territorio",
+      "targets": [
+        ["name=territorio", "name"],
+        ["css=#franquicia .form-group:nth-child(10) .form-control", "css:finder"],
+        ["xpath=//input[@name='territorio']", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[9]/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/input", "xpath:position"]
+      ],
+      "value": "buenos aires"
+    }, {
+      "id": "90fec6f1-7e7f-47ec-a184-03177c6737a5",
+      "comment": "",
+      "command": "click",
+      "target": "name=experiencia",
+      "targets": [
+        ["name=experiencia", "name"],
+        ["css=#franquicia .form-group:nth-child(11) .form-control", "css:finder"],
+        ["xpath=//input[@name='experiencia']", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[10]/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a9370de-0162-47f4-9ad1-5a18ac58ccfa",
+      "comment": "",
+      "command": "type",
+      "target": "name=experiencia",
+      "targets": [
+        ["name=experiencia", "name"],
+        ["css=#franquicia .form-group:nth-child(11) .form-control", "css:finder"],
+        ["xpath=//input[@name='experiencia']", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[10]/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/input", "xpath:position"]
+      ],
+      "value": "si"
+    }, {
+      "id": "3c7830c6-9efc-402e-a43a-2357a5723911",
+      "comment": "",
+      "command": "click",
+      "target": "name=rubro",
+      "targets": [
+        ["name=rubro", "name"],
+        ["css=#franquicia .form-group:nth-child(12) .form-control", "css:finder"],
+        ["xpath=//input[@name='rubro']", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[11]/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d01b53f3-27fd-4b27-ba28-a21803815ef7",
+      "comment": "",
+      "command": "type",
+      "target": "name=rubro",
+      "targets": [
+        ["name=rubro", "name"],
+        ["css=#franquicia .form-group:nth-child(12) .form-control", "css:finder"],
+        ["xpath=//input[@name='rubro']", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[11]/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/input", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "7cbad8d1-2fe9-43a6-ab08-1af2e987227d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(13) > .col-sm-10 > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(13) > .col-sm-10 > .form-control", "css:finder"],
+        ["xpath=(//textarea[@name='mensaje'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[12]/div/textarea", "xpath:idRelative"],
+        ["xpath=//div[12]/div/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d043a3d0-07d6-45b7-93b2-bfec5434c7d8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(13) > .col-sm-10 > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(13) > .col-sm-10 > .form-control", "css:finder"],
+        ["xpath=(//textarea[@name='mensaje'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[12]/div/textarea", "xpath:idRelative"],
+        ["xpath=//div[12]/div/textarea", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "4263521b-83be-43cd-a8cd-da1df50b4517",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "411dca71-1fe7-4835-9aad-612467697e59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a98fccd-d007-40b4-8f3c-929febcae767",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "30859913-44a2-4056-a8d0-69d9cfde1859",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(16) > .col-sm-offset-2 > .btn",
+      "targets": [
+        ["css=.form-group:nth-child(16) > .col-sm-offset-2 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[15]/div/button", "xpath:idRelative"],
+        ["xpath=//div[15]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b7d1549-93b1-4ede-bfbe-0405dd62ccfe",
+      "comment": "",
+      "command": "click",
+      "target": "name=fecha_nacimiento",
+      "targets": [
+        ["name=fecha_nacimiento", "name"],
+        ["css=#franquicia .form-group:nth-child(8) .form-control", "css:finder"],
+        ["xpath=//input[@name='fecha_nacimiento']", "xpath:attributes"],
+        ["xpath=//div[@id='franquicia']/form/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fafa1279-4290-4166-bc36-b16e8951267d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c5f1b66d-214e-47bb-bcaf-a6defce5a0e7"]
+  }],
+  "urls": [],
+  "plugins": []
+}
